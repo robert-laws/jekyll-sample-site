@@ -1,0 +1,11 @@
+# site settings
+title: "Jekyll Sample Site"
+
+
+# conversion
+markdown: kramdown
+highlighter: rouge
+
+# exclusion
+exclude:
+  README.md
