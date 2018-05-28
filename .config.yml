@@ -1,11 +1,26 @@
 # site settings
 title: "Jekyll Sample Site"
+description: "Practicing how to develop using jekyll"
+baseurl: ""
+url: "http://mydomain.com"
 
+# posts
+permalink: /blog/:title
+future: true
 
 # conversion
 markdown: kramdown
+kramdown:
+  auto_ids: false
 highlighter: rouge
+
+# sass
+sass:
+  sass_dir: _sass
+  style: compact
 
 # exclusion
 exclude:
   README.md
+  html_starter.css
+  html_starter.html
