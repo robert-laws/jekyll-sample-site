@@ -20,7 +20,4 @@ sass:
   style: compact
 
 # exclusion
-exclude:
-  README.md
-  html_starter.css
-  html_starter.html
+exclude: [README.md, html_starter.css, html_starter.html]
